@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppViagem.Views.Calcular"
+             Title="Calcular">
+    <VerticalStackLayout>
+        <Label x:Name="lbl_local" Text="Local:"/>
+        <Label x:Name="lbl_destino" Text="Destino:"/>
+        <Label x:Name="lbl_valor" Text="Valor:"/>
+
+        <Button Text="Somar" Margin="5" x:Name="btn_somar" Clicked="btn_somar_Clicked"/>
+        <Button Text="Calcular Próxima Viagem" x:Name="btn_pviagem" Clicked="btn_pviagem_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

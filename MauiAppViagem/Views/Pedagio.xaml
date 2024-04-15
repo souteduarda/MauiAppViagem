@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppViagem.Views.Pedagio"
+             Title="Pedagio">
+    <VerticalStackLayout>
+        <StackLayout>
+            <Label Text="Local:"/>
+            <Entry BindingContext="local:" x:Name="txt_local"/>
+            <Label Text="Valor:"/>
+            <Entry BindingContext="valor" x:Name="txt_valor"/>
+
+            <Button Text="Adicionar" Margin="5" x:Name="btn_add" Clicked="btn_add_Clicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
