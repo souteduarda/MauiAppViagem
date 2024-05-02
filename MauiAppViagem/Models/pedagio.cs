@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MauiAppViagem.Models
 {
-    internal class pedagio
+    public class pedagio
     {
         [AutoIncrement, PrimaryKey]
         public int Id { get; set; }

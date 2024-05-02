@@ -4,7 +4,7 @@
              x:Class="MauiAppViagem.Views.ListarP"
              Title="ListarP">
     <VerticalStackLayout>
-        <ListView x:Name="list_ped">
+        <ListView x:Name="lst_pedagios">
             <ListView.Header>
                 <Grid ColumnDefinitions="3*, *, *, *">
                     <Label Grid.Column="0" Text="Local"/>

@@ -16,6 +16,9 @@
             <Label Text="Origem: "/>
             <Entry x:Name="txt_origem"/>
 
+            <Label Text="Destino: "/>
+            <Entry x:Name="txt_destino"/>
+
             <Label Text="Distância: "/>
             <Entry x:Name="txt_distancia"/>
 
@@ -26,8 +29,8 @@
             <Entry x:Name="txt_gasolina"/>
 
             <Button x:Name="btn_AddPedagio" Text="Adicionar Pedágio" Clicked="btn_AddPedagio_Clicked" HorizontalOptions="Center" Margin="10"/>
-            <Button x:Name="btn_Calcular" Text="Calcular" Clicked="btn_Calcular_Clicked" HorizontalOptions="Center" Margin="10"/>
-            <Button x:Name="btn_ListaPedagio" Text="Lista do Pedágio" Clicked="btn_ListaPedagio_Clicked" HorizontalOptions="Center" Margin="10/"
+            <Button x:Name="btn_Calcular" Text="Calcular" Clicked="btn_Calcular_Clicked" HorizontalOptions="Center" Margin="10" />
+            <Button x:Name="btn_ListaPedagio" Text="Lista do Pedágio" Clicked="btn_ListaPedagio_Clicked" HorizontalOptions="Center" Margin="10" />
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,18 +1,15 @@
 ﻿using MauiAppViagem.Models;
-using Network;
 
 namespace MauiAppViagem
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        public static viagem via = new viagem();
 
         private async void btn_AddPedagio_Clicked(object sender, EventArgs e)
         {
@@ -21,6 +18,7 @@ namespace MauiAppViagem
 
         private async void btn_Calcular_Clicked(object sender, EventArgs e)
         {
+            viagem via = new viagem();
             via.Origem = txt_origem.Text;
             via.Destino = txt_destino.Text;
             via.Distancia = Convert.ToDouble(txt_distancia.Text);
